@@ -1,0 +1,10 @@
+..\out\main.o: main.c
+..\out\main.o: ..\SYSTEM\sys\sys.h
+..\out\main.o: ..\SYSTEM\sys\stm32f10x_map.h
+..\out\main.o: ..\SYSTEM\sys\stm32f10x_conf.h
+..\out\main.o: ..\SYSTEM\sys\stm32f10x_type.h
+..\out\main.o: ..\SYSTEM\sys\cortexm3_macro.h
+..\out\main.o: ..\SYSTEM\sys\stm32f10x_nvic.h
+..\out\main.o: ..\HAEDWARE\led\led.h
+..\out\main.o: ..\SYSTEM\delay\delay.h
+..\out\main.o: ..\HAEDWARE\adc\adc.h

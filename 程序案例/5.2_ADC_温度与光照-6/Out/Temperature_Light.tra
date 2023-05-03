@@ -1,0 +1,26 @@
+*** Creating Trace Output File '..\Out\Temperature_Light.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"..\out\main.o"'
+### List of Objects: adding '"..\out\stm32f10x.o"'
+### List of Objects: adding '"..\out\adc.o"'
+### List of Objects: adding '"..\out\key.o"'
+### List of Objects: adding '"..\out\led.o"'
+### List of Objects: adding '"..\out\delay.o"'
+### List of Objects: adding '"..\out\sys.o"'
+### List of Objects: adding '"..\out\usart.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "..\out\main.o" "..\out\stm32f10x.o" "..\out\adc.o" "..\out\key.o" "..\out\led.o" "..\out\delay.o" "..\out\sys.o" "..\out\usart.o" --strict --scatter "..\Out\Temperature_Light.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "..\Out\Temperature_Light.map" -o "..\Out\Temperature_Light.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '..\Out\Temperature_Light.axf'
+### ADS-LD Command File: '..\Out\Temperature_Light.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '..\Out\Temperature_Light.lnp', Handle=0x000004CC
+### Writing '.lnp' file
+### ADS-LD Command file '..\Out\Temperature_Light.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

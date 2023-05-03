@@ -1,0 +1,63 @@
+Dependencies for Project 'Temperature_Light', Target 'Temperature_Light': (DO NOT MODIFY !)
+F (.\main.c)(0x5C205226)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HAEDWARE\adc -I ..\HAEDWARE\key -I ..\HAEDWARE\led-IE:\Keil_v5\ARM\RV31\INC-IE:\Keil_v5\ARM\CMSIS\Include-IE:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525"-o ..\out\main.o --omf_browse ..\out\main.crf --depend ..\out\main.d)
+I (..\SYSTEM\sys\sys.h)(0x54AAA160)
+I (..\SYSTEM\sys\stm32f10x_map.h)(0x54AAA160)
+I (..\SYSTEM\sys\stm32f10x_conf.h)(0x54AAA160)
+I (..\SYSTEM\sys\stm32f10x_type.h)(0x54AAA160)
+I (..\SYSTEM\sys\cortexm3_macro.h)(0x54AAA160)
+I (..\SYSTEM\sys\stm32f10x_nvic.h)(0x54AAA160)
+I (..\HAEDWARE\led\led.h)(0x54AAA176)
+I (..\SYSTEM\delay\delay.h)(0x54AAA176)
+I (..\HAEDWARE\adc\adc.h)(0x54AAA176)
+F (.\STM32F10x.s)(0x54AAA160)(--cpu Cortex-M3 -g --apcs=interwork -IE:\Keil_v5\ARM\RV31\INC-IE:\Keil_v5\ARM\CMSIS\Include-IE:\Keil_v5\ARM\INC\ST\STM32F10x--pd "__UVISION_VERSION SETA 525"--list ..\out\stm32f10x.lst --xref -o ..\out\stm32f10x.o --depend ..\out\stm32f10x.d)
+F (..\HAEDWARE\adc\adc.c)(0x5C2051D4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HAEDWARE\adc -I ..\HAEDWARE\key -I ..\HAEDWARE\led-IE:\Keil_v5\ARM\RV31\INC-IE:\Keil_v5\ARM\CMSIS\Include-IE:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525"-o ..\out\adc.o --omf_browse ..\out\adc.crf --depend ..\out\adc.d)
+I (..\HAEDWARE\adc\adc.h)(0x54AAA176)
+I (..\SYSTEM\sys\sys.h)(0x54AAA160)
+I (..\SYSTEM\sys\stm32f10x_map.h)(0x54AAA160)
+I (..\SYSTEM\sys\stm32f10x_conf.h)(0x54AAA160)
+I (..\SYSTEM\sys\stm32f10x_type.h)(0x54AAA160)
+I (..\SYSTEM\sys\cortexm3_macro.h)(0x54AAA160)
+I (..\SYSTEM\sys\stm32f10x_nvic.h)(0x54AAA160)
+I (..\HAEDWARE\led\led.h)(0x54AAA176)
+I (..\SYSTEM\delay\delay.h)(0x54AAA176)
+I (E:\Keil_v5\ARM\ARMCC\include\math.h)(0x60252378)
+F (..\HAEDWARE\key\key.c)(0x5C205368)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HAEDWARE\adc -I ..\HAEDWARE\key -I ..\HAEDWARE\led-IE:\Keil_v5\ARM\RV31\INC-IE:\Keil_v5\ARM\CMSIS\Include-IE:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525"-o ..\out\key.o --omf_browse ..\out\key.crf --depend ..\out\key.d)
+I (..\HAEDWARE\key\key.h)(0x54AAA176)
+I (..\SYSTEM\sys\sys.h)(0x54AAA160)
+I (..\SYSTEM\sys\stm32f10x_map.h)(0x54AAA160)
+I (..\SYSTEM\sys\stm32f10x_conf.h)(0x54AAA160)
+I (..\SYSTEM\sys\stm32f10x_type.h)(0x54AAA160)
+I (..\SYSTEM\sys\cortexm3_macro.h)(0x54AAA160)
+I (..\SYSTEM\sys\stm32f10x_nvic.h)(0x54AAA160)
+I (..\SYSTEM\delay\delay.h)(0x54AAA176)
+F (..\HAEDWARE\led\led.c)(0x5C205264)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HAEDWARE\adc -I ..\HAEDWARE\key -I ..\HAEDWARE\led-IE:\Keil_v5\ARM\RV31\INC-IE:\Keil_v5\ARM\CMSIS\Include-IE:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525"-o ..\out\led.o --omf_browse ..\out\led.crf --depend ..\out\led.d)
+I (..\HAEDWARE\led\led.h)(0x54AAA176)
+I (..\SYSTEM\sys\sys.h)(0x54AAA160)
+I (..\SYSTEM\sys\stm32f10x_map.h)(0x54AAA160)
+I (..\SYSTEM\sys\stm32f10x_conf.h)(0x54AAA160)
+I (..\SYSTEM\sys\stm32f10x_type.h)(0x54AAA160)
+I (..\SYSTEM\sys\cortexm3_macro.h)(0x54AAA160)
+I (..\SYSTEM\sys\stm32f10x_nvic.h)(0x54AAA160)
+F (..\SYSTEM\delay\delay.c)(0x54AAA176)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HAEDWARE\adc -I ..\HAEDWARE\key -I ..\HAEDWARE\led-IE:\Keil_v5\ARM\RV31\INC-IE:\Keil_v5\ARM\CMSIS\Include-IE:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525"-o ..\out\delay.o --omf_browse ..\out\delay.crf --depend ..\out\delay.d)
+I (..\SYSTEM\sys\stm32f10x_map.h)(0x54AAA160)
+I (..\SYSTEM\sys\stm32f10x_conf.h)(0x54AAA160)
+I (..\SYSTEM\sys\stm32f10x_type.h)(0x54AAA160)
+I (..\SYSTEM\sys\cortexm3_macro.h)(0x54AAA160)
+I (..\SYSTEM\sys\stm32f10x_nvic.h)(0x54AAA160)
+I (..\SYSTEM\delay\delay.h)(0x54AAA176)
+F (..\SYSTEM\sys\sys.c)(0x5C205384)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HAEDWARE\adc -I ..\HAEDWARE\key -I ..\HAEDWARE\led-IE:\Keil_v5\ARM\RV31\INC-IE:\Keil_v5\ARM\CMSIS\Include-IE:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525"-o ..\out\sys.o --omf_browse ..\out\sys.crf --depend ..\out\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x54AAA160)
+I (..\SYSTEM\sys\stm32f10x_map.h)(0x54AAA160)
+I (..\SYSTEM\sys\stm32f10x_conf.h)(0x54AAA160)
+I (..\SYSTEM\sys\stm32f10x_type.h)(0x54AAA160)
+I (..\SYSTEM\sys\cortexm3_macro.h)(0x54AAA160)
+I (..\SYSTEM\sys\stm32f10x_nvic.h)(0x54AAA160)
+F (..\SYSTEM\usart\usart.c)(0x54AAA160)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HAEDWARE\adc -I ..\HAEDWARE\key -I ..\HAEDWARE\led-IE:\Keil_v5\ARM\RV31\INC-IE:\Keil_v5\ARM\CMSIS\Include-IE:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525"-o ..\out\usart.o --omf_browse ..\out\usart.crf --depend ..\out\usart.d)
+I (..\SYSTEM\sys\sys.h)(0x54AAA160)
+I (..\SYSTEM\sys\stm32f10x_map.h)(0x54AAA160)
+I (..\SYSTEM\sys\stm32f10x_conf.h)(0x54AAA160)
+I (..\SYSTEM\sys\stm32f10x_type.h)(0x54AAA160)
+I (..\SYSTEM\sys\cortexm3_macro.h)(0x54AAA160)
+I (..\SYSTEM\sys\stm32f10x_nvic.h)(0x54AAA160)
+I (..\SYSTEM\usart\usart.h)(0x54AAA160)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)

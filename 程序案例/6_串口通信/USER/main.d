@@ -1,0 +1,11 @@
+.\main.o: main.c
+.\main.o: ..\SYSTEM\sys\sys.h
+.\main.o: ..\SYSTEM\sys\stm32f10x_map.h
+.\main.o: ..\SYSTEM\sys\stm32f10x_conf.h
+.\main.o: ..\SYSTEM\sys\stm32f10x_type.h
+.\main.o: ..\SYSTEM\sys\cortexm3_macro.h
+.\main.o: ..\SYSTEM\sys\stm32f10x_nvic.h
+.\main.o: ..\SYSTEM\delay\delay.h
+.\main.o: ..\SYSTEM\usart\usart.h
+.\main.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\main.o: ..\HARDWARE\LED\led.h

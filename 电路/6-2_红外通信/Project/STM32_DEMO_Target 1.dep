@@ -1,0 +1,69 @@
+Dependencies for Project 'STM32_DEMO', Target 'Target 1': (DO NOT MODIFY !)
+F (..\Source\Application\STM32F10x.s)(0x5490332B)(--cpu Cortex-M3 -g --apcs=interwork -I "E:\Program Files\Keil\ARM\RV31\INC" -I "E:\Program Files\Keil\ARM\CMSIS\Include" -I "E:\Program Files\Keil\ARM\Inc\ST\STM32F10x" --list ".\List\STM32F10x.lst" --xref -o ".\Obj\STM32F10x.o" --depend ".\Obj\STM32F10x.d")
+F (..\Source\Application\main.c)(0x54B0F4D1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\Source\System\sys -I..\Source\System\delay -I..\Source\Drivers\exti -I..\Source\Drivers\key -I..\Source\Drivers\led -I..\Source\Drivers\usart -I "E:\Program Files\Keil\ARM\RV31\INC" -I "E:\Program Files\Keil\ARM\CMSIS\Include" -I "E:\Program Files\Keil\ARM\Inc\ST\STM32F10x" -o ".\Obj\main.o" --omf_browse ".\Obj\main.crf" --depend ".\Obj\main.d")
+I (..\Source\System\sys\sys.h)(0x5490332B)
+I (..\Source\System\sys\stm32f10x_map.h)(0x5490332B)
+I (..\Source\System\sys\stm32f10x_conf.h)(0x5490332B)
+I (..\Source\System\sys\stm32f10x_type.h)(0x5490332B)
+I (..\Source\System\sys\cortexm3_macro.h)(0x5490332B)
+I (..\Source\System\sys\stm32f10x_nvic.h)(0x5490332B)
+I (..\Source\Drivers\led\led.h)(0x5490332B)
+I (..\Source\System\delay\delay.h)(0x549D3C70)
+I (..\Source\Drivers\key\key.h)(0x5490332B)
+I (..\Source\Drivers\exti\exti.h)(0x4D2DA3C4)
+I (..\Source\Drivers\usart\usart.h)(0x5493D6C0)
+I (E:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x50F96150)
+F (..\Source\Drivers\exti\exti.c)(0x54B0EF8A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\Source\System\sys -I..\Source\System\delay -I..\Source\Drivers\exti -I..\Source\Drivers\key -I..\Source\Drivers\led -I..\Source\Drivers\usart -I "E:\Program Files\Keil\ARM\RV31\INC" -I "E:\Program Files\Keil\ARM\CMSIS\Include" -I "E:\Program Files\Keil\ARM\Inc\ST\STM32F10x" -o ".\Obj\exti.o" --omf_browse ".\Obj\exti.crf" --depend ".\Obj\exti.d")
+I (..\Source\Drivers\exti\exti.h)(0x4D2DA3C4)
+I (..\Source\System\sys\sys.h)(0x5490332B)
+I (..\Source\System\sys\stm32f10x_map.h)(0x5490332B)
+I (..\Source\System\sys\stm32f10x_conf.h)(0x5490332B)
+I (..\Source\System\sys\stm32f10x_type.h)(0x5490332B)
+I (..\Source\System\sys\cortexm3_macro.h)(0x5490332B)
+I (..\Source\System\sys\stm32f10x_nvic.h)(0x5490332B)
+I (..\Source\Drivers\led\led.h)(0x5490332B)
+I (..\Source\Drivers\key\key.h)(0x5490332B)
+I (..\Source\System\delay\delay.h)(0x549D3C70)
+I (..\Source\Drivers\usart\usart.h)(0x5493D6C0)
+I (E:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x50F96150)
+F (..\Source\Drivers\key\key.c)(0x5490F2C1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\Source\System\sys -I..\Source\System\delay -I..\Source\Drivers\exti -I..\Source\Drivers\key -I..\Source\Drivers\led -I..\Source\Drivers\usart -I "E:\Program Files\Keil\ARM\RV31\INC" -I "E:\Program Files\Keil\ARM\CMSIS\Include" -I "E:\Program Files\Keil\ARM\Inc\ST\STM32F10x" -o ".\Obj\key.o" --omf_browse ".\Obj\key.crf" --depend ".\Obj\key.d")
+I (..\Source\Drivers\key\key.h)(0x5490332B)
+I (..\Source\System\sys\sys.h)(0x5490332B)
+I (..\Source\System\sys\stm32f10x_map.h)(0x5490332B)
+I (..\Source\System\sys\stm32f10x_conf.h)(0x5490332B)
+I (..\Source\System\sys\stm32f10x_type.h)(0x5490332B)
+I (..\Source\System\sys\cortexm3_macro.h)(0x5490332B)
+I (..\Source\System\sys\stm32f10x_nvic.h)(0x5490332B)
+I (..\Source\System\delay\delay.h)(0x549D3C70)
+F (..\Source\Drivers\led\led.c)(0x5493DE1B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\Source\System\sys -I..\Source\System\delay -I..\Source\Drivers\exti -I..\Source\Drivers\key -I..\Source\Drivers\led -I..\Source\Drivers\usart -I "E:\Program Files\Keil\ARM\RV31\INC" -I "E:\Program Files\Keil\ARM\CMSIS\Include" -I "E:\Program Files\Keil\ARM\Inc\ST\STM32F10x" -o ".\Obj\led.o" --omf_browse ".\Obj\led.crf" --depend ".\Obj\led.d")
+I (..\Source\Drivers\led\led.h)(0x5490332B)
+I (..\Source\System\sys\sys.h)(0x5490332B)
+I (..\Source\System\sys\stm32f10x_map.h)(0x5490332B)
+I (..\Source\System\sys\stm32f10x_conf.h)(0x5490332B)
+I (..\Source\System\sys\stm32f10x_type.h)(0x5490332B)
+I (..\Source\System\sys\cortexm3_macro.h)(0x5490332B)
+I (..\Source\System\sys\stm32f10x_nvic.h)(0x5490332B)
+F (..\Source\Drivers\usart\usart.c)(0x549AB4DC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\Source\System\sys -I..\Source\System\delay -I..\Source\Drivers\exti -I..\Source\Drivers\key -I..\Source\Drivers\led -I..\Source\Drivers\usart -I "E:\Program Files\Keil\ARM\RV31\INC" -I "E:\Program Files\Keil\ARM\CMSIS\Include" -I "E:\Program Files\Keil\ARM\Inc\ST\STM32F10x" -o ".\Obj\usart.o" --omf_browse ".\Obj\usart.crf" --depend ".\Obj\usart.d")
+I (..\Source\System\sys\sys.h)(0x5490332B)
+I (..\Source\System\sys\stm32f10x_map.h)(0x5490332B)
+I (..\Source\System\sys\stm32f10x_conf.h)(0x5490332B)
+I (..\Source\System\sys\stm32f10x_type.h)(0x5490332B)
+I (..\Source\System\sys\cortexm3_macro.h)(0x5490332B)
+I (..\Source\System\sys\stm32f10x_nvic.h)(0x5490332B)
+I (..\Source\Drivers\usart\usart.h)(0x5493D6C0)
+I (E:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x50F96150)
+F (..\Source\System\delay\delay.c)(0x549D4388)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\Source\System\sys -I..\Source\System\delay -I..\Source\Drivers\exti -I..\Source\Drivers\key -I..\Source\Drivers\led -I..\Source\Drivers\usart -I "E:\Program Files\Keil\ARM\RV31\INC" -I "E:\Program Files\Keil\ARM\CMSIS\Include" -I "E:\Program Files\Keil\ARM\Inc\ST\STM32F10x" -o ".\Obj\delay.o" --omf_browse ".\Obj\delay.crf" --depend ".\Obj\delay.d")
+I (..\Source\System\sys\stm32f10x_map.h)(0x5490332B)
+I (..\Source\System\sys\stm32f10x_conf.h)(0x5490332B)
+I (..\Source\System\sys\stm32f10x_type.h)(0x5490332B)
+I (..\Source\System\sys\cortexm3_macro.h)(0x5490332B)
+I (..\Source\System\sys\stm32f10x_nvic.h)(0x5490332B)
+I (..\Source\System\delay\delay.h)(0x549D3C70)
+I (..\Source\System\sys\sys.h)(0x5490332B)
+F (..\Source\System\sys\sys.c)(0x549AB5BA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\Source\System\sys -I..\Source\System\delay -I..\Source\Drivers\exti -I..\Source\Drivers\key -I..\Source\Drivers\led -I..\Source\Drivers\usart -I "E:\Program Files\Keil\ARM\RV31\INC" -I "E:\Program Files\Keil\ARM\CMSIS\Include" -I "E:\Program Files\Keil\ARM\Inc\ST\STM32F10x" -o ".\Obj\sys.o" --omf_browse ".\Obj\sys.crf" --depend ".\Obj\sys.d")
+I (..\Source\System\sys\sys.h)(0x5490332B)
+I (..\Source\System\sys\stm32f10x_map.h)(0x5490332B)
+I (..\Source\System\sys\stm32f10x_conf.h)(0x5490332B)
+I (..\Source\System\sys\stm32f10x_type.h)(0x5490332B)
+I (..\Source\System\sys\cortexm3_macro.h)(0x5490332B)
+I (..\Source\System\sys\stm32f10x_nvic.h)(0x5490332B)

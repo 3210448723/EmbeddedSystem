@@ -1,0 +1,78 @@
+/******************************8Î»ÊýÂë¹Ü¶¯Ì¬É¨Ãè************************
+* 8Î»ÊýÂë¹Ü¶¯Ì¬É¨Ãè
+* Ã¿Î»ÊýÂë¹ÜÏÔÊ¾µÄÊý×Ö´Ó0¼Óµ½9
+***********************************************************************/
+
+#include "sys.h"
+#include "delay.h"
+#include "led.h"
+
+ 
+#define uchar unsigned char
+
+uchar show_w1,show_w2,show_w3,show_w4,show_w5,show_w6,show_w7,show_w8,flag,count;
+uchar seg[] = {0x3f,0x06,0x5b,0x4f,0x66,0x6d,0x7d,0x07,0x7f,0x6f};
+
+/***************************Ö÷º¯Êý*****************************/
+int main()
+{
+	//uchar i;
+	Stm32_Clock_Init( 6 ); 
+	delay_init( 72 );
+	LED_Init();
+	LED_SEL = 0;
+	show_w1=0;
+	show_w2=1;
+	show_w3=2;
+	show_w4=3;
+	show_w5=4;
+	show_w6=5;
+	show_w7=6;
+	show_w8=7;
+	while(1)
+	{
+// 		for( i=0; i<8; i++ )
+// 		{
+// 			SEL2 = i/4;
+// 			SEL1 = i%4/2;
+// 			SEL0 = i%2;
+// 			
+// 			switch(i)
+// 			{
+// 				case 0: LedValue( seg[show_w1%10] ); delay_ms(100); break;
+// 				case 1: LedValue( seg[show_w2%10] ); delay_ms(100); break;
+// 				case 2: LedValue( seg[show_w3%10] ); delay_ms(100); break;
+// 				case 3: LedValue( seg[show_w4%10] ); delay_ms(100); break;
+// 				case 4: LedValue( seg[show_w5%10] ); delay_ms(100); break;
+// 				case 5: LedValue( seg[show_w6%10] ); delay_ms(100); break;
+// 				case 6: LedValue( seg[show_w7%10] ); delay_ms(100); break;
+// 				default: LedValue( seg[show_w8%10] ); delay_ms(100); break;
+// 		    }
+// 		}
+		SetLed(0, show_w1%10);
+		delay_ms(100);
+		SetLed(1, show_w2%10);
+		delay_ms(100);
+		SetLed(2, show_w3%10);
+		delay_ms(100);
+		SetLed(3, show_w4%10);
+		delay_ms(100);
+		SetLed(4, show_w5%10);
+		delay_ms(100);
+		SetLed(5, show_w6%10);
+		delay_ms(100);
+		SetLed(6, show_w7%10);
+		delay_ms(100);
+		SetLed(7, show_w8%10);
+		delay_ms(100);
+
+		show_w1++;
+		show_w2++;
+		show_w3++;
+		show_w4++;
+		show_w5++;
+		show_w6++;
+		show_w7++;
+		show_w8++;
+	}
+}

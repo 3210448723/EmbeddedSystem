@@ -1,0 +1,13 @@
+--cpu Cortex-M3
+".\stm32f10x.o"
+".\main.o"
+".\key.o"
+".\led.o"
+".\rtc.o"
+".\delay.o"
+".\sys.o"
+".\usart.o"
+--strict --scatter ".\RealTimeClock.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\RealTimeClock.map" -o .\RealTimeClock.axf

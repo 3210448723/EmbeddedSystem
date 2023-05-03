@@ -1,0 +1,9 @@
+.\rtc.o: ..\HAEDWARE\rtc\rtc.c
+.\rtc.o: ..\HAEDWARE\rtc\rtc.h
+.\rtc.o: ..\SYSTEM\sys\sys.h
+.\rtc.o: ..\SYSTEM\sys\stm32f10x_map.h
+.\rtc.o: ..\SYSTEM\sys\stm32f10x_conf.h
+.\rtc.o: ..\SYSTEM\sys\stm32f10x_type.h
+.\rtc.o: ..\SYSTEM\sys\cortexm3_macro.h
+.\rtc.o: ..\SYSTEM\sys\stm32f10x_nvic.h
+.\rtc.o: ..\SYSTEM\delay\delay.h

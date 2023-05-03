@@ -1,0 +1,13 @@
+--cpu Cortex-M3
+"..\out\main.o"
+"..\out\stm32f10x.o"
+"..\out\adc.o"
+"..\out\key.o"
+"..\out\led.o"
+"..\out\delay.o"
+"..\out\sys.o"
+"..\out\usart.o"
+--strict --scatter "..\Out\Temperature_Light.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "..\Out\Temperature_Light.map" -o ..\Out\Temperature_Light.axf
