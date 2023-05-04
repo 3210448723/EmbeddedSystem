@@ -1,0 +1,53 @@
+Dependencies for Project 'DigitalClock', Target 'Target 1': (DO NOT MODIFY !)
+F (.\STM32F10x.s)(0x644BCBF5)(--cpu Cortex-M3 -g --apcs=interwork -IE:\Keil_v5\ARM\RV31\INC-IE:\Keil_v5\ARM\CMSIS\Include-IE:\Keil_v5\ARM\INC\ST\STM32F10x--pd "__UVISION_VERSION SETA 525"--list .\stm32f10x.lst --xref -o .\stm32f10x.o --depend .\stm32f10x.d)
+F (.\main.c)(0x644BCBF5)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HAEDWARE\led -I ..\HAEDWARE\timer-IE:\Keil_v5\ARM\RV31\INC-IE:\Keil_v5\ARM\CMSIS\Include-IE:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525"-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (..\HAEDWARE\timer\timer.h)(0x644BCBF4)
+I (..\SYSTEM\sys\sys.h)(0x644BCBF4)
+I (..\SYSTEM\sys\stm32f10x_map.h)(0x644BCBF4)
+I (..\SYSTEM\sys\stm32f10x_conf.h)(0x644BCBF4)
+I (..\SYSTEM\sys\stm32f10x_type.h)(0x644BCBF4)
+I (..\SYSTEM\sys\cortexm3_macro.h)(0x644BCBF4)
+I (..\SYSTEM\sys\stm32f10x_nvic.h)(0x644BCBF4)
+I (..\SYSTEM\delay\delay.h)(0x644BCBF4)
+I (..\HAEDWARE\led\led.h)(0x644BCBF4)
+F (..\HAEDWARE\led\led.c)(0x644BCBF4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HAEDWARE\led -I ..\HAEDWARE\timer-IE:\Keil_v5\ARM\RV31\INC-IE:\Keil_v5\ARM\CMSIS\Include-IE:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525"-o .\led.o --omf_browse .\led.crf --depend .\led.d)
+I (..\HAEDWARE\led\led.h)(0x644BCBF4)
+I (..\SYSTEM\sys\sys.h)(0x644BCBF4)
+I (..\SYSTEM\sys\stm32f10x_map.h)(0x644BCBF4)
+I (..\SYSTEM\sys\stm32f10x_conf.h)(0x644BCBF4)
+I (..\SYSTEM\sys\stm32f10x_type.h)(0x644BCBF4)
+I (..\SYSTEM\sys\cortexm3_macro.h)(0x644BCBF4)
+I (..\SYSTEM\sys\stm32f10x_nvic.h)(0x644BCBF4)
+F (..\HAEDWARE\timer\timer.c)(0x644BCBF4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HAEDWARE\led -I ..\HAEDWARE\timer-IE:\Keil_v5\ARM\RV31\INC-IE:\Keil_v5\ARM\CMSIS\Include-IE:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525"-o .\timer.o --omf_browse .\timer.crf --depend .\timer.d)
+I (..\HAEDWARE\timer\timer.h)(0x644BCBF4)
+I (..\SYSTEM\sys\sys.h)(0x644BCBF4)
+I (..\SYSTEM\sys\stm32f10x_map.h)(0x644BCBF4)
+I (..\SYSTEM\sys\stm32f10x_conf.h)(0x644BCBF4)
+I (..\SYSTEM\sys\stm32f10x_type.h)(0x644BCBF4)
+I (..\SYSTEM\sys\cortexm3_macro.h)(0x644BCBF4)
+I (..\SYSTEM\sys\stm32f10x_nvic.h)(0x644BCBF4)
+I (..\SYSTEM\delay\delay.h)(0x644BCBF4)
+I (..\HAEDWARE\led\led.h)(0x644BCBF4)
+F (..\SYSTEM\delay\delay.c)(0x644BCBF4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HAEDWARE\led -I ..\HAEDWARE\timer-IE:\Keil_v5\ARM\RV31\INC-IE:\Keil_v5\ARM\CMSIS\Include-IE:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525"-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (..\SYSTEM\sys\stm32f10x_map.h)(0x644BCBF4)
+I (..\SYSTEM\sys\stm32f10x_conf.h)(0x644BCBF4)
+I (..\SYSTEM\sys\stm32f10x_type.h)(0x644BCBF4)
+I (..\SYSTEM\sys\cortexm3_macro.h)(0x644BCBF4)
+I (..\SYSTEM\sys\stm32f10x_nvic.h)(0x644BCBF4)
+I (..\SYSTEM\delay\delay.h)(0x644BCBF4)
+F (..\SYSTEM\sys\sys.c)(0x644BCBF4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HAEDWARE\led -I ..\HAEDWARE\timer-IE:\Keil_v5\ARM\RV31\INC-IE:\Keil_v5\ARM\CMSIS\Include-IE:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525"-o .\sys.o --omf_browse .\sys.crf --depend .\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x644BCBF4)
+I (..\SYSTEM\sys\stm32f10x_map.h)(0x644BCBF4)
+I (..\SYSTEM\sys\stm32f10x_conf.h)(0x644BCBF4)
+I (..\SYSTEM\sys\stm32f10x_type.h)(0x644BCBF4)
+I (..\SYSTEM\sys\cortexm3_macro.h)(0x644BCBF4)
+I (..\SYSTEM\sys\stm32f10x_nvic.h)(0x644BCBF4)
+F (..\SYSTEM\usart\usart.c)(0x644BCBF4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HAEDWARE\led -I ..\HAEDWARE\timer-IE:\Keil_v5\ARM\RV31\INC-IE:\Keil_v5\ARM\CMSIS\Include-IE:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525"-o .\usart.o --omf_browse .\usart.crf --depend .\usart.d)
+I (..\SYSTEM\sys\sys.h)(0x644BCBF4)
+I (..\SYSTEM\sys\stm32f10x_map.h)(0x644BCBF4)
+I (..\SYSTEM\sys\stm32f10x_conf.h)(0x644BCBF4)
+I (..\SYSTEM\sys\stm32f10x_type.h)(0x644BCBF4)
+I (..\SYSTEM\sys\cortexm3_macro.h)(0x644BCBF4)
+I (..\SYSTEM\sys\stm32f10x_nvic.h)(0x644BCBF4)
+I (..\SYSTEM\usart\usart.h)(0x644BCBF4)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)

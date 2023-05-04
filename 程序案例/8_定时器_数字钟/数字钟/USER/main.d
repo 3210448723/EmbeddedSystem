@@ -1,0 +1,10 @@
+.\main.o: main.c
+.\main.o: ..\HAEDWARE\timer\timer.h
+.\main.o: ..\SYSTEM\sys\sys.h
+.\main.o: ..\SYSTEM\sys\stm32f10x_map.h
+.\main.o: ..\SYSTEM\sys\stm32f10x_conf.h
+.\main.o: ..\SYSTEM\sys\stm32f10x_type.h
+.\main.o: ..\SYSTEM\sys\cortexm3_macro.h
+.\main.o: ..\SYSTEM\sys\stm32f10x_nvic.h
+.\main.o: ..\SYSTEM\delay\delay.h
+.\main.o: ..\HAEDWARE\led\led.h

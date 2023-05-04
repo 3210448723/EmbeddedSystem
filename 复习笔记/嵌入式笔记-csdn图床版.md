@@ -109,7 +109,7 @@
 
 ### 组成
 
-![IMG_20230426_202700_edit_541010690773176](assets/IMG_20230426_202700_edit_541010690773176.jpg)
+![IMG_20230426_202700_edit_541010690773176](https://img-blog.csdnimg.cn/4a766ee75ecd47149d3f37c3de2f5bca.jpeg)
 
 #### 硬件
 
@@ -224,13 +224,13 @@ ARM微处理器采用 RISC 架构
 
 数据的高字节保存在内存的低地址中，而数据的低字节保存在内存的高地址中
 
-![img](assets/591476C2F45FE92A59F6D799A0FD497D.jpg)
+![img](https://img-blog.csdnimg.cn/775804332457444196a5e42bb8d2ffa2.jpeg)
 
 ### 小端模式
 
 数据的高字节保存在内存的高地址中，而数据的低字节保存在内存的低地址中
 
-![image-20230503171115323](assets/image-20230503171115323.png)
+![image-20230503171115323](https://img-blog.csdnimg.cn/a22e624ac8d14f3f8e1efef595bb5560.jpeg)
 
 ## ARM-Cortex-M3 微控制器
 
@@ -354,7 +354,7 @@ ARM微处理器采用 RISC 架构
 
 #### 通用寄存器
 
-![IMG_20230427_204128_edit_579291931680877](assets/IMG_20230427_204128_edit_579291931680877.jpg)
+![IMG_20230427_204128_edit_579291931680877](https://img-blog.csdnimg.cn/27358c9550004adbac2ff40025d8ce5a.jpeg)
 
 1. 低寄存器，R0\~R7。
 
@@ -384,7 +384,7 @@ ARM微处理器采用 RISC 架构
 
 1. 程序状态字寄存器组PSRs
 
-   ![image-20230427205022056](assets/image-20230427205022056.png)
+   ![image-20230427205022056](https://img-blog.csdnimg.cn/d3820da365e248f9a102ee13fbb0a4ca.jpeg)
 
    1. 应用程序 PSR（APSR）
    2. 中断号 PSR（IPSR）
@@ -392,7 +392,7 @@ ARM微处理器采用 RISC 架构
 
    这3 个寄存器既可以单独访问，也可以组合访问（2 个组合，3 个组合都可以），当使用三合一的方式访问时，应使用名字“xPSR”或者“PSRs”。
 
-   ![image-20230427205034929](assets/image-20230427205034929.png)
+   ![image-20230427205034929](https://img-blog.csdnimg.cn/26ce659834084265b0c3e53c50a19c4b.jpeg)
 
 2. 中断屏蔽寄存器组PRIMASK, FAULTMASK, BASEPRI
 
@@ -419,7 +419,7 @@ ARM微处理器采用 RISC 架构
 
 #### 存储区映射
 
-![IMG_20230428_102308_edit_590234755277645](assets/IMG_20230428_102308_edit_590234755277645.jpg)
+![IMG_20230428_102308_edit_590234755277645](https://img-blog.csdnimg.cn/44c9b63f813f4ccabc460c581cd1f01a.jpeg)
 
 #### [位带操作及计算](https://www.bilibili.com/video/BV1Mg411Q78s?t=581.0)
 
@@ -433,7 +433,7 @@ ARM微处理器采用 RISC 架构
 
 * 例题：[选择题 40 题](../嵌入式选择题-from hqh.md#题目列表)
 
-![image-20230427211424526](assets/image-20230427211424526.png)
+![image-20230427211424526](https://img-blog.csdnimg.cn/181d5c141a374ae499852c89252947a4.jpeg)
 
 ### 异常与中断
 
@@ -463,11 +463,11 @@ ARM Cortex-M3的所有中断机制都由[NVIC](###嵌套向量中断控制器 NV
 
   > 主堆栈指针（Main Stack Pointer，MSP）
 
-  ![image-20230428103802172](assets/image-20230428103802172.png)
+  ![image-20230428103802172](https://img-blog.csdnimg.cn/9da59e2876544422a746a905c80c11c2.jpeg)
 
 * 从16开始的所有编号为**外部中断**对应的异常的编号。
 
-  ![image-20230428103837613](assets/image-20230428103837613.png)
+  ![image-20230428103837613](https://img-blog.csdnimg.cn/e6b6efa9c4154f168a8388a866798e00.jpeg)
 
 * 向量表的每个入口地址都是32位整数
 
@@ -513,7 +513,7 @@ ARM Cortex-M3的所有中断机制都由[NVIC](###嵌套向量中断控制器 NV
 
 STM32F103VBT6 是 STM32F103xxx 系列 ARM Cortex-M3 处理器中的一种
 
-![image-20230503122032004](assets/image-20230503122032004.png)
+![image-20230503122032004](https://img-blog.csdnimg.cn/5be659549a7f426aab5104ac0dabd613.jpeg)
 
 ### 中断
 
@@ -745,7 +745,7 @@ void PortationDisplay(u8 w, u8 value)
 
 #### LED数码管引脚定义
 
-![image-20230428125104394](assets/image-20230428125104394.png)
+![image-20230428125104394](https://img-blog.csdnimg.cn/3631d5c388624f37b70569af17159c90.jpeg)
 
 ```markdown
 位 0: a (顶部水平段)
@@ -932,7 +932,7 @@ void PortationDisplay(u8 w, u8 value)
 
 ### 去抖动
 
-![image-20230428205540827](assets/image-20230428205540827.png)
+![image-20230428205540827](https://img-blog.csdnimg.cn/1ec98c7235124d2b82fd48f72461d4c2.jpeg)
 
 * 按键机械时间—ms级
 * 处理时间—us级
@@ -1781,7 +1781,7 @@ void DisplayDigitalClock(void)
 
 ### 任务状态机
 
-![IMG_20230428_203820_edit_608833716619077](assets/IMG_20230428_203820_edit_608833716619077.jpg)
+![IMG_20230428_203820_edit_608833716619077](https://img-blog.csdnimg.cn/2f31d4caec6f432d835a8ca2b4f38370.jpeg)
 
 1. 睡眠/睡眠状态：任务在没有被配备任务控制块或被剥夺了任务控制块时的状态
 2. 就绪状态：系统为任务配备了任务控制块且在任务就绪表中进行了就绪登记。
