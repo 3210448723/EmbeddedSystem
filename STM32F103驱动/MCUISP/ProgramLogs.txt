@@ -437,3 +437,6 @@
 [2023-04-03 14:20:Program Success:57FF6E065078485722352487 D:\学习\嵌入式系统\程序案例\6_串口通信\USER\LSD.hex
 [2023-04-03 15:04:Program Success:57FF6E065078485722352487 D:\学习\嵌入式系统\程序案例\6_串口通信\USER\LSD.hex
 [2023-05-04 18:24:Program Success:52FF6A064886525528301887 D:\学习\嵌入式系统\程序案例\8_定时器_数字钟\数字钟\USER\DigitalClock.hex
+[2023-05-05 16:21:Program Success:52FF6A064886525528301887 D:\学习\嵌入式系统\程序案例\1_GPIO_LED\USER\LSD.hex
+[2023-05-05 16:22:Program Success:52FF6A064886525528301887 D:\桌面\GPIO_LED.hex
+[2023-05-05 16:23:Program Success:52FF6A064886525528301887 D:\学习\嵌入式系统\程序案例\1_GPIO_LED\USER\LSD.hex

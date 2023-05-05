@@ -8,8 +8,8 @@
 #define GPIOE_ODR ((unsigned long int *)0x4001180C)
 
 //u32 *PE08 = (u32 *)(0x42000000 +(0x4001180D-0x40000000)*32 + 0*4);
-u32 *PEO8 = (u32 *)(0x42000000 +(0x4001180C-0x40000000)*32 + 8*4);
-
+u32 *PEO8 = (u32 *)(0x42000000 +(0x4001180C-0x40000000)*32 + 8*4);// 对应L0
+//延迟Time秒
 int delay(int Time)
 {
 	unsigned short t,i,j;
@@ -37,15 +37,16 @@ int  main(void)
 	
 	*GPIOE_CRH &=0X00000000;
 	*GPIOE_CRH |= 0X33333333; //PE.8-15推挽输出
+	// L0至L7都亮
 	*GPIOE_ODR |= 0x0000FF00; //PE.8-15输出高
-	delay(5);
+	delay(5);//延迟5s
 	while(1)
 	{
-		*GPIOE_ODR = 0x00000100; //LED1
+		*GPIOE_ODR = 0x00000100; //LED1亮
 		delay(2);
-		*PEO8 = 0;
+		*PEO8 = 0;//LED1不亮
 		delay(2);
-		*PEO8 = 1;
+		*PEO8 = 1;//LED1亮
 		delay(2);
 		*GPIOE_ODR = 0x00000200; //LED2
 		delay(2);

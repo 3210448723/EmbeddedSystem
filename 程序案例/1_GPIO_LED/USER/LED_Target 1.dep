@@ -1,0 +1,32 @@
+Dependencies for Project 'LED', Target 'Target 1': (DO NOT MODIFY !)
+F (.\STM32F10x.s)(0x644BCBF4)(--cpu Cortex-M3 -g --apcs=interwork -IE:\Keil_v5\ARM\RV31\INC-IE:\Keil_v5\ARM\CMSIS\Include-IE:\Keil_v5\ARM\INC\ST\STM32F10x--pd "__UVISION_VERSION SETA 525"--list .\stm32f10x.lst --xref -o .\stm32f10x.o --depend .\stm32f10x.d)
+F (.\main.c)(0x644BCBF4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE-IE:\Keil_v5\ARM\RV31\INC-IE:\Keil_v5\ARM\CMSIS\Include-IE:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525"-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (..\HARDWARE\led.h)(0x644BCBF4)
+I (..\SYSTEM\sys\sys.h)(0x644BCBF4)
+I (..\SYSTEM\sys\stm32f10x_map.h)(0x644BCBF4)
+I (..\SYSTEM\sys\stm32f10x_conf.h)(0x644BCBF4)
+I (..\SYSTEM\sys\stm32f10x_type.h)(0x644BCBF4)
+I (..\SYSTEM\sys\cortexm3_macro.h)(0x644BCBF4)
+I (..\SYSTEM\sys\stm32f10x_nvic.h)(0x644BCBF4)
+F (..\SYSTEM\delay\delay.c)(0x644BCBF4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE-IE:\Keil_v5\ARM\RV31\INC-IE:\Keil_v5\ARM\CMSIS\Include-IE:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525"-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (..\SYSTEM\sys\stm32f10x_map.h)(0x644BCBF4)
+I (..\SYSTEM\sys\stm32f10x_conf.h)(0x644BCBF4)
+I (..\SYSTEM\sys\stm32f10x_type.h)(0x644BCBF4)
+I (..\SYSTEM\sys\cortexm3_macro.h)(0x644BCBF4)
+I (..\SYSTEM\sys\stm32f10x_nvic.h)(0x644BCBF4)
+I (..\SYSTEM\delay\delay.h)(0x644BCBF4)
+F (..\SYSTEM\sys\sys.c)(0x644BCBF4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE-IE:\Keil_v5\ARM\RV31\INC-IE:\Keil_v5\ARM\CMSIS\Include-IE:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525"-o .\sys.o --omf_browse .\sys.crf --depend .\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x644BCBF4)
+I (..\SYSTEM\sys\stm32f10x_map.h)(0x644BCBF4)
+I (..\SYSTEM\sys\stm32f10x_conf.h)(0x644BCBF4)
+I (..\SYSTEM\sys\stm32f10x_type.h)(0x644BCBF4)
+I (..\SYSTEM\sys\cortexm3_macro.h)(0x644BCBF4)
+I (..\SYSTEM\sys\stm32f10x_nvic.h)(0x644BCBF4)
+F (..\HARDWARE\led.c)(0x644BCBF4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE-IE:\Keil_v5\ARM\RV31\INC-IE:\Keil_v5\ARM\CMSIS\Include-IE:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525"-o .\led.o --omf_browse .\led.crf --depend .\led.d)
+I (..\SYSTEM\sys\stm32f10x_map.h)(0x644BCBF4)
+I (..\SYSTEM\sys\stm32f10x_conf.h)(0x644BCBF4)
+I (..\SYSTEM\sys\stm32f10x_type.h)(0x644BCBF4)
+I (..\SYSTEM\sys\cortexm3_macro.h)(0x644BCBF4)
+I (..\SYSTEM\sys\stm32f10x_nvic.h)(0x644BCBF4)
+I (..\HARDWARE\led.h)(0x644BCBF4)
+I (..\SYSTEM\sys\sys.h)(0x644BCBF4)
