@@ -21,17 +21,25 @@ Target DLL:      Segger\JL2CM3.dll V2.99.40.0
 Dialog DLL:      TARMSTM.DLL V1.66.0.0
  
 <h2>Project:</h2>
-D:\学习\嵌入式系统\程序案例\2_流水灯\USER\LSD.uvproj
+D:\学习\嵌入式系统\程序案例\4_按键输入\USER\TEST.uvproj
 Project File Date:  05/05/2023
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'E:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'Target 1'
-compiling main.c...
+assembling STM32F10x.s...
+compiling delay.c...
+compiling test.c...
+test.c(32): warning:  #1-D: last line of file ends without a newline
+  }
+test.c: 1 warning, 0 errors
+compiling key.c...
+compiling led.c...
+compiling sys.c...
 linking...
-Program Size: Code=3312 RO-data=268 RW-data=28 ZI-data=612  
+Program Size: Code=1692 RO-data=268 RW-data=28 ZI-data=516  
 FromELF: creating hex file...
-".\LSD.axf" - 0 Error(s), 0 Warning(s).
+".\TEST.axf" - 0 Error(s), 1 Warning(s).
 Build Time Elapsed:  00:00:00
 </pre>
 </body>
